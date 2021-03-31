@@ -1,0 +1,27 @@
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_app_e_com/screens/signup.dart';
+import 'package:flutter_app_e_com/screens/login.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter_app_e_com/screens/homepage.dart';
+
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      theme: ThemeData(
+      ),
+      home: HonePage(),
+    );
+  }
+}
+
+
+

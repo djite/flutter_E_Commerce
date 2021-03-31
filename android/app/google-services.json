@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "453204966079",
+    "project_id": "mon-1ier-app-e-commerce",
+    "storage_bucket": "mon-1ier-app-e-commerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453204966079:android:c8c854019e8414551e640a",
+        "android_client_info": {
+          "package_name": "com.djite.flutter_app_e_com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453204966079-qfhrjbvjf9nn5qe0pug3r39lsdmb9hrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqSkZaj_RnJ4OUuG9Qalsxi8U5awCoDB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453204966079-qfhrjbvjf9nn5qe0pug3r39lsdmb9hrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
